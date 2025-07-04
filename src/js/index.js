@@ -39,7 +39,7 @@ const platforms = [
     new Platform(200, 200, 100, 20)
 ]
 
-const ground = new Ground('/src/assets/bg.jpg', canvas.width, canvas.height)
+const ground = new Ground('src/assets/bg.jpg', canvas.width, canvas.height)
 const player = new Player(playerProperty);
 
 

@@ -8,8 +8,6 @@ class Ground {
 
     create() {
         board.drawImage(this.image, 0, 0, this.width, this.height)
-        // board.fillStyle = "green"
-        // board.fillRect(0, canvas.height - 50, canvas.width, 50)
     }
 
 
